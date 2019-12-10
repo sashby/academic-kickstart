@@ -19,11 +19,11 @@ image:
   preview_only: no
 projects: []
 output:
-  prettydoc::html_pretty:
-    theme: architect
-    highlight: vignette
+  html_document:
+    theme: lumen
+    highlight: tango
     toc: true
-    toc_float: false
+    toc_float: true
     code_float: true
     df_print: paged
     number_section: true
