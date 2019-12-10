@@ -8,8 +8,8 @@ tags:
   - data visualization
   - violin plots
   - ggplot
-subtitle: ''
-summary: ''
+subtitle: 'Why choose violin plots over density plots?'
+summary: 'Visual example of why sometimes density plots are difficult to read. Example code for creating violin plots using ggplot2 included. '
 authors: []
 lastmod: '2019-12-09T23:28:22-08:00'
 featured: no
@@ -18,6 +18,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+number_section: true
 ---
 ```{r setup, include = FALSE}
 # Clear the environment
@@ -156,7 +157,7 @@ cat_l_basic
 ```
 
 ## Adding mean and reference line
-Want to know the average accuracy? I can also add a marker to denote the mean for each group and a reference line to show where chance performance lies (33% for three categories). I'll also space the dots further apart from one another so they're no longer touching. 
+Want to know the average accuracy? I can also add a marker to denote the mean for each group and a reference line to show where chance performance lies (33% for three categories). I'll also space the dots further apart from one another so they're no longer touching.  
 
 ```{r fancy violin plot, warning = FALSE, message = FALSE}
 pal = wes_palette("Darjeeling1", 2, type = "discrete")
@@ -177,8 +178,7 @@ cat_v_fancy <- ggplot(cat_plot_data, aes(x = condition, y = accuracy, fill=condi
                             size = 25)) + 
   scale_y_continuous(breaks = c(0,.25, .5, .75, 1)) +
   scale_x_discrete(labels= cat_labels) +
-  geom_hline(yintercept = .333, linetype = "dashed", color = "black") + #added reference line
-  ggsave("categorization_regdots.png", width = 2.6, height = 2.6, units = "in")
+  geom_hline(yintercept = .333, linetype = "dashed", color = "black") #added reference line
 cat_v_fancy
 
 ```
