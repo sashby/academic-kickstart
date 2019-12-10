@@ -18,15 +18,6 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-output:
-  html_document:
-    theme: lumen
-    highlight: tango
-    toc: true
-    toc_float: true
-    code_float: true
-    df_print: paged
-    number_section: true
 ---
 ```{r setup, include = FALSE}
 # Clear the environment
