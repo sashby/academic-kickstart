@@ -18,7 +18,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-number_section: true
+markup: blackfriday 
 ---
 ```{r setup, include = FALSE}
 # Clear the environment

@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Graduate Student of Cognitive Neuroscience
+role: Doctoral Candidate (Cognitive Neuroscience)
 
 # Organizations/Affiliations
 organizations:
@@ -18,14 +18,16 @@ organizations:
   url: "www.psychology.uoregon.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a doctoral graduate student studying cognitive neuroscience in the [Brain and Memory Lab] (https://cognem.uoregon.edu/) at the [University of Oregon] (https://psychology.uoregon.edu/)
+bio: Stefania is a doctoral candidate studying cognitive neuroscience in the [Brain and Memory Lab] (https://cognem.uoregon.edu/) at the [University of Oregon] (https://psychology.uoregon.edu/). She loves coding in R and Matlab, data analysis and visualization, and is interested in pursuing a career in data science after graduation.  
 
 interests:
 - fMRI
 - episodic memory
 - category learning
 - machine learning
-- functional connectivity
+- pattern analyses
+- R
+- Matlab
 
 education:
   courses:
@@ -70,9 +72,9 @@ email: ""
 ---
 
 ## About me
-I am a doctoral graduate student studying cognitive neuroscience in the [Brain and Memory Lab] (https://cognem.uoregon.edu/) at the [University of Oregon] (https://psychology.uoregon.edu/).
+Stefania works in the [Brain and Memory Lab] (https://cognem.uoregon.edu/) at the [University of Oregon] (https://psychology.uoregon.edu/) studying learning and memory using neuroimaging. 
 
 ## My research
-Flexible memory requires the ability to both recall specific details of our individual experiences---*specificity*---as well as link information across events to derive new knowledge---*generalization*. I am interested in understanding the relationship between memory specificity and generalization and exploring to what extent these representations coexist, the neural mechanisms that support their simultaneous construction, and the degree to which our intentions or goals at learning shapes the memory representations we construct. To study these representations I use category learning tasks and utilize functional neuroimaging and multivariate analyses techniques. 
+I am interested in understanding the relationship between memory specificity and generalization and exploring to what extent these representations coexist, the neural mechanisms that support their simultaneous construction, and the degree to which our intentions or goals at learning shapes the memory representations we construct. To study these representations I use category learning tasks and utilize functional neuroimaging and multivariate analyses techniques. 
 
 *** 
